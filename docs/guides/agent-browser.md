@@ -14,18 +14,6 @@ npm install -g agent-browser
 agent-browser install
 ```
 
-Alternativy:
-
-```bash
-# macOS přes Homebrew
-brew install agent-browser
-agent-browser install
-
-# Nebo bez globální instalace — jako projektová závislost
-npm install agent-browser
-agent-browser install
-```
-
 ## Instalace Skills
 
 Skills naučí AI agenta používat agent-browser automaticky:
