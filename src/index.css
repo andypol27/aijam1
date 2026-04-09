@@ -1,1 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #FF3131;
+  --color-primary-dim: #FF1493;
+  --color-primary-container: #FF3131;
+  --color-primary-fixed: #FF3131;
+  --color-primary-fixed-dim: #FF1493;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #ffffff;
+  --color-on-primary-fixed: #ffffff;
+  --color-on-primary-fixed-variant: #4d0000;
+  --color-inverse-primary: #006a6e;
+
+  --color-secondary: #FF1493;
+  --color-secondary-dim: #FF1493;
+  --color-secondary-container: #3d001e;
+  --color-secondary-fixed: #FF1493;
+  --color-secondary-fixed-dim: #FF1493;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #ffdee9;
+  --color-on-secondary-fixed: #00461c;
+  --color-on-secondary-fixed-variant: #00662c;
+
+  --color-tertiary: #64b3ff;
+  --color-tertiary-dim: #41a3f7;
+  --color-tertiary-container: #45a6fa;
+  --color-tertiary-fixed: #6bb6ff;
+  --color-tertiary-fixed-dim: #49a8fc;
+  --color-on-tertiary: #003053;
+  --color-on-tertiary-container: #002440;
+  --color-on-tertiary-fixed: #00192f;
+  --color-on-tertiary-fixed-variant: #003c65;
+
+  --color-surface: #0c0e12;
+  --color-surface-dim: #0c0e12;
+  --color-surface-bright: #292c33;
+  --color-surface-container: #171a1f;
+  --color-surface-container-low: #111318;
+  --color-surface-container-high: #1d2025;
+  --color-surface-container-highest: #23262c;
+  --color-surface-container-lowest: #000000;
+  --color-surface-variant: #23262c;
+  --color-surface-tint: #FF3131;
+  --color-on-surface: #f6f6fc;
+  --color-on-surface-variant: #aaabb0;
+  --color-inverse-surface: #f9f9ff;
+  --color-inverse-on-surface: #53555a;
+
+  --color-background: #0c0e12;
+  --color-on-background: #f6f6fc;
+
+  --color-outline: #74757a;
+  --color-outline-variant: #46484d;
+
+  --color-error: #ff716c;
+  --color-error-container: #9f0519;
+  --color-error-dim: #d7383b;
+  --color-on-error: #490006;
+  --color-on-error-container: #ffa8a3;
+
+  --font-headline: 'Space Grotesk', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-label: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: #0c0e12;
+  color: #f6f6fc;
+  font-family: 'Manrope', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+.tonal-depth-glass {
+  background: rgba(12, 14, 18, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.glow-primary {
+  text-shadow: 0 0 15px rgba(255, 49, 49, 0.5);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #FF3131, #FF1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #FF3131 0%, #FF1493 100%);
+}
+
+.heading-vibrant {
+  background: linear-gradient(to right, #FF3131, #FF1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.feature-card-glow:hover {
+  box-shadow: 0 0 40px rgba(255, 49, 49, 0.08);
+}
