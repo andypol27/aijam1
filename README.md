@@ -16,7 +16,8 @@ npm run dev
 | Nástroj | Návod |
 |---------|-------|
 | Google Stitch MCP | [docs/guides/stitch.md](docs/guides/stitch.md) |
-| Playwright CLI + Skills | [docs/guides/playwright.md](docs/guides/playwright.md) |
+| agent-browser CLI + Skills | [docs/guides/agent-browser.md](docs/guides/agent-browser.md) |
+| GitHub Pages pro fork | [docs/guides/github-pages-fork.md](docs/guides/github-pages-fork.md) |
 
 ## Projekty pro Stitch - Příklady
 
